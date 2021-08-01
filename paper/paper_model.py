@@ -58,9 +58,6 @@ class BANN_paper:
             else:
                 self.teacher_model.set_weights(self.student_model.get_weights())
             self.student_model.set_weights(self.init_weights)
-            # TODO optimizer weights
-            # self.optimizer_student.set_weights(self.init_optim)
-
             self.gen += 1
 
     # train the generator and discriminator
