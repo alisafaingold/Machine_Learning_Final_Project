@@ -86,7 +86,7 @@ def optimize_paper_model(dataset_name, train_dataset, num_classes, improved=Fals
         random_state=42,
         verbose=2
     )
-    optimizer.maximize(n_iter=5)
+    optimizer.maximize(n_iter=25)
 
     print("Final result:", optimizer.max)
     return optimizer.max
