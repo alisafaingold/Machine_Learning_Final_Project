@@ -1,4 +1,4 @@
-# Machone Learning Final Project
+# Machine Learning Final Project
 The final project in Ben-gurion University Machine Learning course. 
 The task was to implement a ML solution published in recent years in top-ranking conventions, suggest and implemwnt an improve and 
 then to evaluate it, analyze the results and comapre to well-known algorithm.
